@@ -1,0 +1,31 @@
+# Normalise text to LF in the repository, so Linux CI never sees CRLF
+# regardless of anyone's core.autocrlf setting.
+* text=auto eol=lf
+
+# Windows batch files are the exception: cmd.exe parses them line by line and
+# mis-handles LF-only files, most visibly inside the parenthesised for/if blocks
+# run_all_examples.bat uses. Keep them CRLF on checkout.
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# Shell scripts stay LF even when checked out on Windows: a trailing \r would
+# become part of the shebang and of every argument.
+*.sh    text eol=lf
+
+# Sample documents and build output: never apply line-ending conversion.
+*.docx  binary
+*.doc   binary
+*.pdf   binary
+*.xlsx  binary
+*.xls   binary
+*.epub  binary
+*.mobi  binary
+*.odt   binary
+*.rtf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.zip   binary
+*.jar   binary
+*.lic   binary
