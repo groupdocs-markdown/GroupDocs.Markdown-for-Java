@@ -1,7 +1,5 @@
 # GroupDocs.Markdown for Java - Code Examples
 
-[![banner](https://raw.githubusercontent.com/groupdocs/groupdocs.github.io/master/img/banners/groupdocs-markdown-java-banner.png)](https://releases.groupdocs.com/markdown/java/)
-
 [Product Page](https://products.groupdocs.com/markdown/java/) | [Docs](https://docs.groupdocs.com/markdown/java/) | [Demos](https://products.groupdocs.app/markdown/family) | [API Reference](https://reference.groupdocs.com/markdown/java/) | [Blog](https://blog.groupdocs.com/categories/groupdocs.markdown-product-family/) | [Free Support](https://forum.groupdocs.com/c/markdown) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
 
 [GroupDocs.Markdown for Java](https://products.groupdocs.com/markdown/java/) is a document-processing library that exports PDF, Word, Excel, EPUB and 20+ other formats to clean, structured Markdown -- built for AI/LLM pipelines, static site generators and document-processing workflows.
